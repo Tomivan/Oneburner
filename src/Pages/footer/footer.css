@@ -1,0 +1,39 @@
+.footer-top, .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.english{
+    background: #ffffff;
+    color: #462686;
+    height: 5vh;
+    width: 12vw;
+    border: 1px solid #462686;
+    border-radius: 5px;
+}
+.world-logo{
+    height: 1.8vh;
+    margin-left: -2%;
+    padding-right: .5em;
+}
+.footer-left{
+    margin-left: 5%;
+}
+.footer-left-bottom{
+    margin-top: 30%;
+}
+.icon{
+    padding-right: .5em;
+}
+.footer-right{
+    display: flex;
+}
+.footer-1{
+    padding-right: 3em;
+}
+.footer-1 h6{
+    color: #462686;
+}
+hr, .rights p{
+    margin-left: 5%;
+}

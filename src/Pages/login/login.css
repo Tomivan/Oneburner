@@ -1,0 +1,62 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.logo{
+    margin-left: 5%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.right p{
+    margin-left: -5%;
+}
+.try{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    color: #ffffff;
+    background: #462686;
+}
+.login-form{
+    width: 20%;
+    margin-left: 37%;
+}
+input{
+    width: 25vw;
+    justify-content: center;
+    height: 4vh;
+}
+label{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: .5em;
+    border-radius: 5px;
+}
+button{ 
+    border: none;
+    color: #ffffff;
+    background: #462686;
+    border-radius: 25px;
+} 
+.login-button{
+    width: 25.5vw;
+    height: 5vh;
+    margin-top: 5%;
+}
+.password-link{
+    text-decoration: none;
+    color: #462686;
+    margin: 8% 0 0 25%;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+.sign-in{
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+.main{
+    display: flex;
+    padding: 1em;
+}
+.main-left{
+    margin-left: 5%;
+}
+.main-left h3{
+    color: #462686;
+    font-size: 26px;
+    margin-top: 20%;
+}
+.landing{
+    width: 40vw;
+    margin-left: 45%;
+}
+.free-trial{
+    height: 6vh;
+    width: 12vw;
+}
+.nav{
+    border: 2px solid #462686;
+    width: 85vw;
+    margin-left: 5%;
+    border-radius: 5px;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    color: #462686;
+}
+.manage, .speed, .automated, .row, .row-reverse{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin-top: 5%;
+}
+.manage-left, .automated-left, .row-reverse-left{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.manage-left h4{
+    font-size: 24px;
+}
+.square{
+    width: 28vw;
+}
+.speed-left{
+    margin-left: 10%;
+}
+.speed-right, .row-reverse-right{
+    margin-top: 4%;
+}
+.customer-support{
+    margin-left: 20%;
+    display: flex;
+}
+.customer-image .logo{
+    width: 15vw;
+}
+.customer-text{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.better-way{
+    background: #7837f8;
+    color:#ffffff;
+    padding: 1em;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: #000000;
+}

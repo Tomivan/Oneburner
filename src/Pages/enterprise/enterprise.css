@@ -1,0 +1,151 @@
+main{
+    display: flex;
+}
+.companies p{
+    text-align: center;
+}
+.company-logo{
+    width: 7vw;
+    height: 8vh;
+}
+.company-icons{
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+}
+.enterprises{
+    background: #7837f8;
+    color:#ffffff;
+    padding: 1em;
+    height: 45vh;
+}
+.enterprise-inner{
+    display: flex;
+    font-size: 12px;
+}
+.enterprises h4{
+    text-align: center;
+}
+.enterprise-left, .enterprise-right{
+    width: 40vw;
+    margin-left: 5%;
+}
+.points{
+    display: flex;
+}
+.points .logo{
+    padding-right: .7em;
+    height: 3vh;
+    margin-top: 2%;
+}
+.collaboration{
+    width: 45vw;
+    height: 25vh;
+    margin-left: 28%;
+    margin-top: -5%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    display: flex;
+    border-radius: 5px;
+}
+.collaboration .logo{
+    height: 15vh;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.best{
+    margin-top: 5%;
+}
+.integrate h4{
+    text-align: center;
+    margin-top: 10%;
+}
+.tools{
+    text-align: center;
+}
+.click-logo{
+    width: 3vw;
+    height: 5vh;
+    padding: 1.5em;
+}
+.region{
+    margin-top: 10%;
+    background: rgba(204, 204, 204, 0.1);
+    padding-top: 2em;
+}
+.region h4, .region p{
+    text-align: center;
+}
+.region .logo{
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 45vh;
+}
+.ceo-statement{
+    text-align: center;
+    padding-top: 3em;
+    height: 45vh;
+}
+.ceo-statement p{
+    font-size: 20px;
+    line-height: 1.7;
+}
+.ceo{
+    display: flex;
+    height: 5vh;
+}
+.ceo-hr{
+    width: 40vw;
+    height: 0.1vh;
+    margin-top: 5%;
+}
+.ceo .logo{
+    height: 10vh;
+}
+.ceo-image{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.ceo-image p{
+    font-size: 12px;
+}
+.learn{
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    height: 30vh;
+    background: rgba(204, 204, 204, 0.1);
+}
+.learn h3{
+    font-size: 26px;
+}
+.contact-sales{
+    width: 10vw;
+    height: 5vh;
+}
+.financial-logo{
+    margin-top: 15%;
+    margin-left: 3%;
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+.centre h3{
+    font-size: 30px;
+    color:#462686;
+    text-align: center;
+}
+.report-logo{
+    margin-left: 5%;
+    margin-top: -5%;
+}
+.demo{
+    height: 6vh;
+    width: 12vw;
+}

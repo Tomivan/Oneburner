@@ -1,0 +1,84 @@
+nav{
+    display: flex;
+    padding: 1em;
+    height: 7vh;
+    background: #ffffff;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-left: 10%;
+}
+.nav-right{
+    display: flex;
+    margin-left: 45%;
+}
+.nav-right p{
+    padding-right: 1em;
+}
+.nav-logo{
+    margin-top: -1%;
+    height: 10vh;
+}
+.contact-form{
+    width: 40vw;
+    height: 90vh;
+    margin-left: 5%;
+    background-color: #ffffff;
+    padding-top: 3em;
+    padding-left: 7em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.body{
+    background: #e5e5e5;
+    height: 120vh;
+}
+.contact-left{
+    padding-top: 5em;
+}
+.contact-form label{
+    margin-top: 3%;
+}
+.contact-form input{
+    width: 31.5vw;
+    height: 5vh;
+}
+.left-side input, .right-side input{
+    width: 15vw;
+}
+.right-side{
+    margin-left: 2%;
+}
+.name{
+    display: flex;
+}
+.contact-form textarea{
+    width: 31.5vw;
+    height: 10vh;
+}
+.contact-us{
+    margin-top: 2%;
+    width: 31.5vw;
+    height: 5vh;
+}
+
+.contact-right{
+    margin-left: 60%;
+    margin-top: -45%;
+    padding: 1em;
+}
+.row{
+    display: flex;
+}
+.card{
+  padding-right: 1em;
+  width: 30%;
+}
+.card p{
+    font-size: 14px;
+}
+Link{
+    text-decoration: none;
+}
