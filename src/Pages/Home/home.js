@@ -39,15 +39,30 @@ import Chat from '../../assets/images/chat.svg';
 import Mail from '../../assets/images/mail.svg';
 import Phone from '../../assets/images/phone.svg';
 import Customer from '../../assets/images/customer.svg';
+import Store from '../../assets/images/store.svg';
+import Clients from '../../assets/images/clients.svg';
+import Integrations from '../../assets/images/integrations.svg';
+import Vector from '../../assets/images/Vector.svg';
+import Down from '../../assets/images/down.svg'
 import './home.css';
 
 const Home = () => {
+    const dropDown = () => {
+        const product = document.getElementById("products");
+            if(product.style.display === "flex"){
+                product.style.display = "none";
+            } else {
+                product.style.display = "flex";
+            }
+        }
     return(
         <div>
             <nav>
-            <img src={Logo} alt="Oneburner-logo" className="logo"/>
+            <Link to="/home" className="link"><img src={Logo} alt="Oneburner-logo" className="nav-logo"/></Link>
             <ul>
-                <li>Product</li>
+                <div className="down">
+                   <li onClick={dropDown}>Product</li><img src={Down} alt="Oneburner-logo" className="down-icon"/>
+                </div>
                 <li>Pricing</li>
                 <li><Link to="/enterprise" className="link">Enterprise</Link></li>
                 <li>Support</li>
@@ -58,6 +73,36 @@ const Home = () => {
                 <button className="try">Try for free</button>
             </div>
             </nav>
+            <div className="products" id="products">
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Clients} alt="" className="product-logo"/>
+                            <h6>Clients</h6>
+                        </div>
+                        <p>See the amazing team that uses<br/> Oneburner.</p>
+                    </div>
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Store} alt="" className="product-logo"/>
+                            <h6>One burner stores</h6>
+                        </div>
+                        <p>Explore our ready made solutions to<br/> expand your business</p>
+                    </div>
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Integrations} alt="" className="product-logo"/>
+                            <h6>Integrations</h6>
+                        </div>
+                        <p>Connect different solutions to oneburner<br/> and get more done.</p>
+                    </div>
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Vector} alt="" className="product-logo"/>
+                            <h6>Why Oneburner</h6>
+                        </div>
+                        <p>Learn more about features,<br/> success rates, benefits and demo</p>
+                    </div>
+                </div>
             <section className="main">
                 <div className="main-left">
                     <h3 className="h3">Collaborate with your team and<br/> get more done</h3>

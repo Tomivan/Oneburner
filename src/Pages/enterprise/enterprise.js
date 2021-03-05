@@ -35,6 +35,10 @@ import Excel from '../../assets/images/excel-4.svg';
 import Powerpoint from '../../assets/images/microsoft-powerpoint.svg';
 import Access from '../../assets/images/microsoft-access.png';
 import Wordpress from '../../assets/images/wordpress.svg';
+import Store from '../../assets/images/store.svg';
+import Clients from '../../assets/images/clients.svg';
+import Integrations from '../../assets/images/integrations.svg';
+import Vector from '../../assets/images/Vector.svg';
 import Footer from '../footer/footer';
 import './enterprise.css';
 
@@ -42,7 +46,7 @@ const Enterprise = () => {
     return(
         <div>
             <nav>
-            <img src={Logo} alt="Oneburner-logo" className="logo"/>
+            <Link to="/home" className="link"><img src={Logo} alt="Oneburner-logo" className="nav-logo"/></Link>
             <ul>
                 <li>Product</li>
                 <li>Pricing</li>
@@ -55,6 +59,36 @@ const Enterprise = () => {
                 <button className="try">Try for free</button>
             </div>
             </nav>
+            <div className="products">
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Clients} alt="" className="product-logo"/>
+                            <h6>Clients</h6>
+                        </div>
+                        <p>See the amazing team that uses<br/> Oneburner.</p>
+                    </div>
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Store} alt="" className="product-logo"/>
+                            <h6>One burner stores</h6>
+                        </div>
+                        <p>Explore our ready made solutions to<br/> expand your business</p>
+                    </div>
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Integrations} alt="" className="product-logo"/>
+                            <h6>Integrations</h6>
+                        </div>
+                        <p>Connect different solutions to oneburner<br/> and get more done.</p>
+                    </div>
+                    <div className="product">
+                        <div className="product-top">
+                            <img src={Vector} alt="" className="product-logo"/>
+                            <h6>Why Oneburner</h6>
+                        </div>
+                        <p>Learn more about features,<br/> success rates, benefits and demo</p>
+                    </div>
+            </div>
             <section className="main">
                 <img src={Financial} alt="" className="financial-logo"/>
                 <div className="centre">

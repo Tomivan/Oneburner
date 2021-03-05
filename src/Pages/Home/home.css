@@ -76,3 +76,36 @@
     text-decoration: none;
     color: #000000;
 }
+.products{
+    display: none;
+    position: absolute;
+    justify-content: flex-start;
+    padding-left: 5em;
+    height: 15vh;
+    width: 100vw;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px;
+    z-index: 10;
+}
+.product{
+    padding: 1em;
+    width: 15%;
+}
+.product-top{
+    display: flex;
+}
+.product-top h6{
+    padding-left: .8em;
+}
+.product p{
+    font-size: 10px;
+    margin-left: 12%;
+    margin-top: -7%;
+}
+.down{
+    display: flex;
+}
+.down-icon{
+    padding-left: .5em;
+    padding-top: .4em;
+}

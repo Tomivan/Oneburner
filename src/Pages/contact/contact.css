@@ -9,18 +9,19 @@ ul{
 }
 li{
     list-style-type: none;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .nav-right{
     display: flex;
-    margin-left: 45%;
+    margin-left: 42%;
 }
 .nav-right p{
     padding-right: 1em;
 }
 .nav-logo{
-    margin-top: -1%;
+    margin-top: -5%;
     height: 10vh;
+    margin-left: 5%;
 }
 .contact-form{
     width: 40vw;
