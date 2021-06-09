@@ -13,7 +13,8 @@ li{
 }
 .nav-right{
     display: flex;
-    margin-left: 42%;
+    position: absolute;
+    right: 5%;
 }
 .nav-right p{
     padding-right: 1em;
