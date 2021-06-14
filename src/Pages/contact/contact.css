@@ -73,6 +73,7 @@ li{
 }
 .row{
     display: flex;
+    margin-bottom:5%;
 }
 .card{
   padding-right: 1em;
