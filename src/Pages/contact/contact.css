@@ -35,7 +35,7 @@ li{
 }
 .body{
     background: #e5e5e5;
-    height: 120vh;
+    height: auto;
 }
 .contact-left{
     padding-top: 5em;
@@ -84,4 +84,57 @@ li{
 }
 Link{
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-right{
+        position: relative;
+        flex-direction: column;
+        right: 0;
+        left: 20%;
+        margin-top: -5%;
+    }
+    ul{
+        flex-direction: column;
+        margin-top: -5%;
+    }
+    li{
+        margin-bottom: 3%;
+    }
+    .try-2{
+        width: 30vw;
+    }
+    .body{
+        margin-top: 70%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .contact-form{
+        width: 80vw;
+        padding-left: 1em;
+    }
+    .contact-form input{
+        width: 68vw;
+    }
+    .left-side input, .right-side input{
+        width: 32vw;
+    }
+    .contact-form textarea{
+        width: 68vw;
+    }
+    .contact-us{
+        position: relative;
+        top: 5%;
+    }
+    .contact-right{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
 }

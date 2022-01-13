@@ -10,7 +10,7 @@ import Vector from '../../assets/images/Vector.svg';
 import './contact.css';
 
 const ContactSales = () => {
-    const {handleSubmit, handleChange, register, reset,errors } = useForm([]);
+    const {handleSubmit, handleChange, register } = useForm([]);
     return(
         <div>
             <nav>
@@ -24,7 +24,7 @@ const ContactSales = () => {
             <div className="nav-right">
                 <p><Link to="/contact" className="link">Contact Sales</Link></p>
                 <p>Login</p>
-                <button className="try">Try for free</button>
+                <button className="try-2">Try for free</button>
             </div>
             </nav>
             <div className="products">

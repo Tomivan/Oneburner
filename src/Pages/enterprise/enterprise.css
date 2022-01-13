@@ -12,6 +12,7 @@ main{
     padding: .5em;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .enterprises{
     background: #7837f8;
@@ -148,4 +149,40 @@ main{
 .demo{
     height: 6vh;
     width: 12vw;
+}
+@media screen and (max-width: 768px){
+    .demo{
+        width: 50vw;
+        margin-bottom: 10%;
+    }
+    .companies p{
+        font-size: 9px;
+        position: absolute;
+        left: 20%;
+    }
+    .click-logo{
+        width: 5vw;
+        height: 5vh;
+        padding: 0.5em;
+        margin-left: 5%;
+    }
+    .company-icons{
+        width: 90%;
+    }
+    .integrate{
+        width: 95%;
+    }
+    .integrate h4{
+        font-size: 14px;
+    }
+    .collaboration {
+        margin-left: 5%;
+        width: 90vw;
+    }
+    .collaboration .logo{
+        margin-left: 5%;
+    }
+    .contact-sales {
+        width: 35vw;
+    }
 }

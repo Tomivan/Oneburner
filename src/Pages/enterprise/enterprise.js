@@ -56,7 +56,7 @@ const Enterprise = () => {
             <div className="nav-right">
                 <p><Link to="/contact" className="link">Contact Sales</Link></p>
                 <p>Login</p>
-                <button className="try">Try for free</button>
+                <button className="try-2">Try for free</button>
             </div>
             </nav>
             <div className="products">
@@ -187,7 +187,7 @@ const Enterprise = () => {
                   <div className="ceo">
                       <hr className="ceo-hr"/>
                       <div className="ceo-image">
-                          <img src={Ceo} alt="A picture of The ceo" className="logo"/>
+                          <img src={Ceo} alt="The ceo" className="logo"/>
                           <div className="kemi">
                               <p>Kemi Hassan</p>
                               <p>Ceo, Sahaara Inc.</p>

@@ -37,3 +37,23 @@
 hr, .rights p{
     margin-left: 5%;
 }
+
+@media screen and (max-width: 768px){
+    .footer-top, .footer-bottom, .footer-right{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-top{
+        margin-left: 30%;
+    }
+    .english{
+        width: 35vw;
+    }
+    hr{
+        width: 90%;
+    }
+    .rights{
+        width: 90%;
+        text-align: center;
+    }
+}

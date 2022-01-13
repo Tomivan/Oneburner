@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Logo from '../../assets/images/Logo.png'
 import { useForm } from 'react-hook-form';
 import { Link, navigate } from '@reach/router';

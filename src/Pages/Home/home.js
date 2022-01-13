@@ -70,7 +70,7 @@ const Home = () => {
             <div className="nav-right">
                 <p><Link to="/contact" className="link">Contact Sales</Link></p>
                 <p>Login</p>
-                <button className="try">Try for free</button>
+                <button className="try-2">Try for free</button>
             </div>
             </nav>
             <div className="products" id="products">
@@ -110,7 +110,7 @@ const Home = () => {
                     <button className="free-trial"> Start Free trial</button>
                 </div>
                 <div className="image">
-                <img src={Landing} alt="Landing Page image" className="landing"/>
+                <img src={Landing} alt="" className="landing"/>
                 </div>
             </section>
             <section className="companies">

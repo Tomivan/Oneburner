@@ -109,3 +109,64 @@
     padding-left: .5em;
     padding-top: .4em;
 }
+
+@media screen and (max-width: 768px){
+    .main{
+        flex-direction: column;
+        margin-top: 55%;
+        padding: 0.5em;
+    }
+    .main-left{
+        margin-left: 0;
+    }
+    .main-left h3{
+        font-size: 16px;
+    }
+    .main-left p{
+        font-size: 10px;
+    }
+    .free-trial{
+        width: 35vw;
+        margin-left: 12%;
+    }
+    .landing{
+        margin-left: 15%;
+        height: 20vh;
+    }
+    .nav{
+        flex-wrap: wrap;
+        height: auto;
+        width: 50vw;
+    }
+    .manage, .speed, .automated, .row, .row-reverse{
+        flex-direction: column;
+        width: 65%;
+    }
+    .manage-left, .automated-left, .row-reverse-left{
+        margin-left: 0;
+    }
+    .manage-left h4{
+        font-size: 18px;
+    }
+    .manage p, .speed p, .automated p, .row p, .row-reverse p{
+        font-size: 9px;
+    }
+    .square{
+        width: 55vw;
+    }
+    .customer-support{
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    .customer-text{
+        margin-left: -15%;
+        font-size: 13px;
+        width: 80%;
+    }
+    .better-way{
+        width: 62%;
+    }
+    .better-way h3{
+        font-size: 16px;
+    }
+}
