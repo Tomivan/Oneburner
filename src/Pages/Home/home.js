@@ -216,15 +216,15 @@ const Home = () => {
                 <div className="customer-support">
                     <div className="customer-icons">
                         <div className="support-icon">
-                            <img src={Chat} alt="" className="logo"/>
+                            <img src={Chat} alt="" className="support-logo"/>
                             <p>Live Chat</p>
                         </div>
                         <div className="support-icon">
-                            <img src={Mail} alt="" className="logo"/>
+                            <img src={Mail} alt="" className="support-logo"/>
                             <p>Mail support</p>
                         </div>
                         <div className="support-icon">
-                            <img src={Phone} alt="A mobile phone" className="logo"/>
+                            <img src={Phone} alt="A mobile phone" className="support-logo"/>
                             <p>Phone call support</p>
                         </div>
                     </div>

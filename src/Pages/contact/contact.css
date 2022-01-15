@@ -89,13 +89,14 @@ Link{
 @media screen and (max-width: 768px){
     nav{
         flex-direction: column;
+        align-items: center;
     }
     .nav-right{
         position: relative;
         flex-direction: column;
         right: 0;
-        left: 20%;
         margin-top: -5%;
+        text-align: center;
     }
     ul{
         flex-direction: column;
